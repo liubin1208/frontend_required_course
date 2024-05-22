@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="demo"></canvas>
+
+    <script src="./text-image/text-image.iife.js"></script>
+
+    <script>
+      textImage.createTextImage({
+        canvas: document.getElementById('demo'),
+        raduis: 6,
+        isGray: true,
+        source: {
+          video: './assets/1.mp4',
+          height: 500,
+        },
+      });
+    </script>
+  </body>
+</html>

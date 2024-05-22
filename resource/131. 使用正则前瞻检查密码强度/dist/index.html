@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Vue Password Strength </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+	<h2> Password Strength</h2>
+
+	<div class="input_container">
+		<ul>
+			<li v-bind:class="{ is_valid: contains_eight_characters }">8 Characters</li>
+			<li v-bind:class="{ is_valid: contains_number }">Contains Number</li>
+			<li v-bind:class="{ is_valid: contains_uppercase }">Contains Uppercase</li>
+			<li v-bind:class="{ is_valid: contains_special_character }">Contains Special Character</li>
+		</ul>
+
+		<div class="checkmark_container" v-bind:class="{ show_checkmark: valid_password }">		
+			<svg width="50%" height="50%" viewBox="0 0 140 100">
+				<path class="checkmark" v-bind:class="{ checked: valid_password }" d="M10,50 l25,40 l95,-70" />
+			</svg>
+		</div>
+		
+    <input type="password" @input="checkPassword" v-model="password" autocomplete="off" placeholder="Password" />
+	</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

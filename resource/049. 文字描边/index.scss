@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+}
+@mixin text-stroke($color: #fff, $width: 1px){
+  text-shadow: 
+    0 -#{$width} #{$color},
+    #{$width} 0 #{$color},
+    0 #{$width} #{$color},
+    -#{$width} 0 #{$color},
+    -#{$width} -#{$width} #{$color},
+    #{$width} #{$width} #{$color},
+    #{$width} -#{$width} #{$color},
+    -#{$width} #{$width} #{$color};
+}
+p {
+  font-size: 5em;
+  font-weight: bold;
+  font-family: '手札体-简';
+  // @include text-stroke(#fff, 2px);
+  -webkit-text-stroke: #fff 4px;
+  // color: transparent;
+  position: relative;
+  // font-size: 5.5em;
+}
+p::after{
+  content: attr(data-content);
+  -webkit-text-stroke:0;
+  position: absolute;
+  left: 0;
+}

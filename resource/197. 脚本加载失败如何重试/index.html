@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      const domains = ['123234234134.com', 'bfgfghgf.com', 'backup.com'];
+      const retry = {};
+      window.addEventListener(
+        'error',
+        (e) => {
+          if (e.target.tagName !== 'SCRIPT' || e instanceof ErrorEvent) return;
+          const url = new URL(e.target.src);
+          const key = url.pathname;
+          if (!(key in retry)) {
+            retry[key] = 0;
+          }
+          const index = retry[key];
+          if (index >= domains.length) {
+            return;
+          }
+          const domain = domains[index];
+          url.host = domain;
+          document.write(`\<script src="${url.toString()}">\<\/script>`);
+          // const script = document.createElement('script');
+          // script.src = url.toString();
+          // document.body.insertBefore(script, e.target);
+          retry[key]++;
+        },
+        true
+      );
+    </script>
+  </head>
+  <body>
+    <script src="http://static.com/js/1.js"></script>
+    <script src="http://abcdefgasdf.com/js/2.js"></script>
+    <script src="http://static.com/js/3.js"></script>
+
+    <script>
+      throw 123;
+    </script>
+  </body>
+</html>

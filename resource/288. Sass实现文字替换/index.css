@@ -1,0 +1,828 @@
+html {
+  background: url("./wall4.png"), url("./wall3.png"), url("./wall2.png"), url("./wall1.png");
+  background-attachment: fixed;
+  height: 100%;
+}
+
+body {
+  background: radial-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%) center top/cover;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.be::after {
+  content: "abc";
+  font-size: 10vw;
+  color: #fff;
+  text-shadow: 1px 1px 4px #333;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1920px) {
+  .be::after {
+    content: "Unconventional";
+  }
+}
+@media screen and (max-width: 1910px) {
+  .be::after {
+    content: "Flabbergasting";
+  }
+}
+@media screen and (max-width: 1900px) {
+  .be::after {
+    content: "Scintillating";
+  }
+}
+@media screen and (max-width: 1890px) {
+  .be::after {
+    content: "Extraordinary";
+  }
+}
+@media screen and (max-width: 1880px) {
+  .be::after {
+    content: "Unforgettable";
+  }
+}
+@media screen and (max-width: 1870px) {
+  .be::after {
+    content: "Unpredictable";
+  }
+}
+@media screen and (max-width: 1860px) {
+  .be::after {
+    content: "Dumbfounding";
+  }
+}
+@media screen and (max-width: 1850px) {
+  .be::after {
+    content: "Electrifying";
+  }
+}
+@media screen and (max-width: 1840px) {
+  .be::after {
+    content: "Overwhelming";
+  }
+}
+@media screen and (max-width: 1830px) {
+  .be::after {
+    content: "Incomparable";
+  }
+}
+@media screen and (max-width: 1820px) {
+  .be::after {
+    content: "Entertaining";
+  }
+}
+@media screen and (max-width: 1810px) {
+  .be::after {
+    content: "Magnificient";
+  }
+}
+@media screen and (max-width: 1800px) {
+  .be::after {
+    content: "Confounding";
+  }
+}
+@media screen and (max-width: 1790px) {
+  .be::after {
+    content: "Resourceful";
+  }
+}
+@media screen and (max-width: 1780px) {
+  .be::after {
+    content: "Interesting";
+  }
+}
+@media screen and (max-width: 1770px) {
+  .be::after {
+    content: "Adventurous";
+  }
+}
+@media screen and (max-width: 1760px) {
+  .be::after {
+    content: "Bewildering";
+  }
+}
+@media screen and (max-width: 1750px) {
+  .be::after {
+    content: "Astonishing";
+  }
+}
+@media screen and (max-width: 1740px) {
+  .be::after {
+    content: "Fascinating";
+  }
+}
+@media screen and (max-width: 1730px) {
+  .be::after {
+    content: "Outstanding";
+  }
+}
+@media screen and (max-width: 1720px) {
+  .be::after {
+    content: "Influential";
+  }
+}
+@media screen and (max-width: 1710px) {
+  .be::after {
+    content: "Imaginative";
+  }
+}
+@media screen and (max-width: 1700px) {
+  .be::after {
+    content: "Nonsensical";
+  }
+}
+@media screen and (max-width: 1690px) {
+  .be::after {
+    content: "Stimulating";
+  }
+}
+@media screen and (max-width: 1680px) {
+  .be::after {
+    content: "Exceptional";
+  }
+}
+@media screen and (max-width: 1670px) {
+  .be::after {
+    content: "Resplendent";
+  }
+}
+@media screen and (max-width: 1660px) {
+  .be::after {
+    content: "Commanding";
+  }
+}
+@media screen and (max-width: 1650px) {
+  .be::after {
+    content: "Determined";
+  }
+}
+@media screen and (max-width: 1640px) {
+  .be::after {
+    content: "Remarkable";
+  }
+}
+@media screen and (max-width: 1630px) {
+  .be::after {
+    content: "Incredible";
+  }
+}
+@media screen and (max-width: 1620px) {
+  .be::after {
+    content: "Impressive";
+  }
+}
+@media screen and (max-width: 1610px) {
+  .be::after {
+    content: "Perplexing";
+  }
+}
+@media screen and (max-width: 1600px) {
+  .be::after {
+    content: "Passionate";
+  }
+}
+@media screen and (max-width: 1590px) {
+  .be::after {
+    content: "Formidable";
+  }
+}
+@media screen and (max-width: 1580px) {
+  .be::after {
+    content: "Stupefying";
+  }
+}
+@media screen and (max-width: 1570px) {
+  .be::after {
+    content: "Refreshing";
+  }
+}
+@media screen and (max-width: 1560px) {
+  .be::after {
+    content: "Delightful";
+  }
+}
+@media screen and (max-width: 1550px) {
+  .be::after {
+    content: "Incredible";
+  }
+}
+@media screen and (max-width: 1540px) {
+  .be::after {
+    content: "Innovative";
+  }
+}
+@media screen and (max-width: 1530px) {
+  .be::after {
+    content: "Monumemtal";
+  }
+}
+@media screen and (max-width: 1520px) {
+  .be::after {
+    content: "Surprising";
+  }
+}
+@media screen and (max-width: 1510px) {
+  .be::after {
+    content: "Stupendous";
+  }
+}
+@media screen and (max-width: 1500px) {
+  .be::after {
+    content: "Staggering";
+  }
+}
+@media screen and (max-width: 1490px) {
+  .be::after {
+    content: "Delectable";
+  }
+}
+@media screen and (max-width: 1480px) {
+  .be::after {
+    content: "Astounding";
+  }
+}
+@media screen and (max-width: 1470px) {
+  .be::after {
+    content: "Responsive";
+  }
+}
+@media screen and (max-width: 1460px) {
+  .be::after {
+    content: "Courageous";
+  }
+}
+@media screen and (max-width: 1450px) {
+  .be::after {
+    content: "Outlandish";
+  }
+}
+@media screen and (max-width: 1440px) {
+  .be::after {
+    content: "Marvelous";
+  }
+}
+@media screen and (max-width: 1430px) {
+  .be::after {
+    content: "Whimsical";
+  }
+}
+@media screen and (max-width: 1420px) {
+  .be::after {
+    content: "Versatile";
+  }
+}
+@media screen and (max-width: 1410px) {
+  .be::after {
+    content: "Motivated";
+  }
+}
+@media screen and (max-width: 1400px) {
+  .be::after {
+    content: "Brilliant";
+  }
+}
+@media screen and (max-width: 1390px) {
+  .be::after {
+    content: "Eccentric";
+  }
+}
+@media screen and (max-width: 1380px) {
+  .be::after {
+    content: "Wonderful";
+  }
+}
+@media screen and (max-width: 1370px) {
+  .be::after {
+    content: "Excellent";
+  }
+}
+@media screen and (max-width: 1360px) {
+  .be::after {
+    content: "Thrilling";
+  }
+}
+@media screen and (max-width: 1350px) {
+  .be::after {
+    content: "Inspiring";
+  }
+}
+@media screen and (max-width: 1340px) {
+  .be::after {
+    content: "Exquisite";
+  }
+}
+@media screen and (max-width: 1330px) {
+  .be::after {
+    content: "Inventive";
+  }
+}
+@media screen and (max-width: 1320px) {
+  .be::after {
+    content: "Colourful";
+  }
+}
+@media screen and (max-width: 1310px) {
+  .be::after {
+    content: "Delicious";
+  }
+}
+@media screen and (max-width: 1300px) {
+  .be::after {
+    content: "Fantastic";
+  }
+}
+@media screen and (max-width: 1290px) {
+  .be::after {
+    content: "Audacious";
+  }
+}
+@media screen and (max-width: 1280px) {
+  .be::after {
+    content: "Dexterous";
+  }
+}
+@media screen and (max-width: 1270px) {
+  .be::after {
+    content: "Different";
+  }
+}
+@media screen and (max-width: 1260px) {
+  .be::after {
+    content: "Confident";
+  }
+}
+@media screen and (max-width: 1250px) {
+  .be::after {
+    content: "Enthused";
+  }
+}
+@media screen and (max-width: 1240px) {
+  .be::after {
+    content: "Peculiar";
+  }
+}
+@media screen and (max-width: 1230px) {
+  .be::after {
+    content: "Glorious";
+  }
+}
+@media screen and (max-width: 1220px) {
+  .be::after {
+    content: "Smashing";
+  }
+}
+@media screen and (max-width: 1210px) {
+  .be::after {
+    content: "Splendid";
+  }
+}
+@media screen and (max-width: 1200px) {
+  .be::after {
+    content: "Adaptive";
+  }
+}
+@media screen and (max-width: 1190px) {
+  .be::after {
+    content: "Daunting";
+  }
+}
+@media screen and (max-width: 1180px) {
+  .be::after {
+    content: "Imposing";
+  }
+}
+@media screen and (max-width: 1170px) {
+  .be::after {
+    content: "Striking";
+  }
+}
+@media screen and (max-width: 1160px) {
+  .be::after {
+    content: "Charming";
+  }
+}
+@media screen and (max-width: 1150px) {
+  .be::after {
+    content: "Dazzling";
+  }
+}
+@media screen and (max-width: 1140px) {
+  .be::after {
+    content: "Engaging";
+  }
+}
+@media screen and (max-width: 1130px) {
+  .be::after {
+    content: "Resolute";
+  }
+}
+@media screen and (max-width: 1120px) {
+  .be::after {
+    content: "Intrepid";
+  }
+}
+@media screen and (max-width: 1110px) {
+  .be::after {
+    content: "Dramatic";
+  }
+}
+@media screen and (max-width: 1100px) {
+  .be::after {
+    content: "Original";
+  }
+}
+@media screen and (max-width: 1090px) {
+  .be::after {
+    content: "Fearless";
+  }
+}
+@media screen and (max-width: 1080px) {
+  .be::after {
+    content: "Flexible";
+  }
+}
+@media screen and (max-width: 1070px) {
+  .be::after {
+    content: "Creative";
+  }
+}
+@media screen and (max-width: 1060px) {
+  .be::after {
+    content: "Animated";
+  }
+}
+@media screen and (max-width: 1050px) {
+  .be::after {
+    content: "Puzzling";
+  }
+}
+@media screen and (max-width: 1040px) {
+  .be::after {
+    content: "Shocking";
+  }
+}
+@media screen and (max-width: 1030px) {
+  .be::after {
+    content: "Intense";
+  }
+}
+@media screen and (max-width: 1020px) {
+  .be::after {
+    content: "Elastic";
+  }
+}
+@media screen and (max-width: 1010px) {
+  .be::after {
+    content: "Pointed";
+  }
+}
+@media screen and (max-width: 1000px) {
+  .be::after {
+    content: "Unusual";
+  }
+}
+@media screen and (max-width: 990px) {
+  .be::after {
+    content: "Devoted";
+  }
+}
+@media screen and (max-width: 980px) {
+  .be::after {
+    content: "Amusing";
+  }
+}
+@media screen and (max-width: 970px) {
+  .be::after {
+    content: "Radiant";
+  }
+}
+@media screen and (max-width: 960px) {
+  .be::after {
+    content: "Refined";
+  }
+}
+@media screen and (max-width: 950px) {
+  .be::after {
+    content: "Natural";
+  }
+}
+@media screen and (max-width: 940px) {
+  .be::after {
+    content: "Dynamic";
+  }
+}
+@media screen and (max-width: 930px) {
+  .be::after {
+    content: "Radical";
+  }
+}
+@media screen and (max-width: 920px) {
+  .be::after {
+    content: "Bizarre";
+  }
+}
+@media screen and (max-width: 910px) {
+  .be::after {
+    content: "Curious";
+  }
+}
+@media screen and (max-width: 900px) {
+  .be::after {
+    content: "Amazing";
+  }
+}
+@media screen and (max-width: 890px) {
+  .be::after {
+    content: "Lively";
+  }
+}
+@media screen and (max-width: 880px) {
+  .be::after {
+    content: "Modest";
+  }
+}
+@media screen and (max-width: 870px) {
+  .be::after {
+    content: "Mighty";
+  }
+}
+@media screen and (max-width: 860px) {
+  .be::after {
+    content: "August";
+  }
+}
+@media screen and (max-width: 850px) {
+  .be::after {
+    content: "Unique";
+  }
+}
+@media screen and (max-width: 840px) {
+  .be::after {
+    content: "Absurd";
+  }
+}
+@media screen and (max-width: 830px) {
+  .be::after {
+    content: "Brazen";
+  }
+}
+@media screen and (max-width: 820px) {
+  .be::after {
+    content: "Crafty";
+  }
+}
+@media screen and (max-width: 810px) {
+  .be::after {
+    content: "Astute";
+  }
+}
+@media screen and (max-width: 800px) {
+  .be::after {
+    content: "Shrewd";
+  }
+}
+@media screen and (max-width: 790px) {
+  .be::after {
+    content: "Daring";
+  }
+}
+@media screen and (max-width: 780px) {
+  .be::after {
+    content: "Lovely";
+  }
+}
+@media screen and (max-width: 770px) {
+  .be::after {
+    content: "Nimble";
+  }
+}
+@media screen and (max-width: 760px) {
+  .be::after {
+    content: "Classy";
+  }
+}
+@media screen and (max-width: 750px) {
+  .be::after {
+    content: "Humble";
+  }
+}
+@media screen and (max-width: 740px) {
+  .be::after {
+    content: "Limber";
+  }
+}
+@media screen and (max-width: 730px) {
+  .be::after {
+    content: "Superb";
+  }
+}
+@media screen and (max-width: 720px) {
+  .be::after {
+    content: "Super";
+  }
+}
+@media screen and (max-width: 710px) {
+  .be::after {
+    content: "Ready";
+  }
+}
+@media screen and (max-width: 700px) {
+  .be::after {
+    content: "Crazy";
+  }
+}
+@media screen and (max-width: 690px) {
+  .be::after {
+    content: "Proud";
+  }
+}
+@media screen and (max-width: 680px) {
+  .be::after {
+    content: "First";
+  }
+}
+@media screen and (max-width: 670px) {
+  .be::after {
+    content: "Light";
+  }
+}
+@media screen and (max-width: 660px) {
+  .be::after {
+    content: "Alert";
+  }
+}
+@media screen and (max-width: 650px) {
+  .be::after {
+    content: "Lithe";
+  }
+}
+@media screen and (max-width: 640px) {
+  .be::after {
+    content: "Fiery";
+  }
+}
+@media screen and (max-width: 630px) {
+  .be::after {
+    content: "Eager";
+  }
+}
+@media screen and (max-width: 620px) {
+  .be::after {
+    content: "Quick";
+  }
+}
+@media screen and (max-width: 610px) {
+  .be::after {
+    content: "Risky";
+  }
+}
+@media screen and (max-width: 600px) {
+  .be::after {
+    content: "Adept";
+  }
+}
+@media screen and (max-width: 590px) {
+  .be::after {
+    content: "Sharp";
+  }
+}
+@media screen and (max-width: 580px) {
+  .be::after {
+    content: "Smart";
+  }
+}
+@media screen and (max-width: 570px) {
+  .be::after {
+    content: "Brisk";
+  }
+}
+@media screen and (max-width: 560px) {
+  .be::after {
+    content: "Fresh";
+  }
+}
+@media screen and (max-width: 550px) {
+  .be::after {
+    content: "Swift";
+  }
+}
+@media screen and (max-width: 540px) {
+  .be::after {
+    content: "Novel";
+  }
+}
+@media screen and (max-width: 530px) {
+  .be::after {
+    content: "Giant";
+  }
+}
+@media screen and (max-width: 520px) {
+  .be::after {
+    content: "Funky";
+  }
+}
+@media screen and (max-width: 510px) {
+  .be::after {
+    content: "Weird";
+  }
+}
+@media screen and (max-width: 500px) {
+  .be::after {
+    content: "Grand";
+  }
+}
+@media screen and (max-width: 490px) {
+  .be::after {
+    content: "Alive";
+  }
+}
+@media screen and (max-width: 480px) {
+  .be::after {
+    content: "Happy";
+  }
+}
+@media screen and (max-width: 470px) {
+  .be::after {
+    content: "Keen";
+  }
+}
+@media screen and (max-width: 460px) {
+  .be::after {
+    content: "Bold";
+  }
+}
+@media screen and (max-width: 450px) {
+  .be::after {
+    content: "Wild";
+  }
+}
+@media screen and (max-width: 440px) {
+  .be::after {
+    content: "Spry";
+  }
+}
+@media screen and (max-width: 430px) {
+  .be::after {
+    content: "Zany";
+  }
+}
+@media screen and (max-width: 420px) {
+  .be::after {
+    content: "Nice";
+  }
+}
+@media screen and (max-width: 410px) {
+  .be::after {
+    content: "Loud";
+  }
+}
+@media screen and (max-width: 400px) {
+  .be::after {
+    content: "Lean";
+  }
+}
+@media screen and (max-width: 390px) {
+  .be::after {
+    content: "Fine";
+  }
+}
+@media screen and (max-width: 380px) {
+  .be::after {
+    content: "Busy";
+  }
+}
+@media screen and (max-width: 370px) {
+  .be::after {
+    content: "Cool";
+  }
+}
+@media screen and (max-width: 360px) {
+  .be::after {
+    content: "Rare";
+  }
+}
+@media screen and (max-width: 350px) {
+  .be::after {
+    content: "Apt";
+  }
+}
+@media screen and (max-width: 340px) {
+  .be::after {
+    content: "Fun";
+  }
+}
+@media screen and (max-width: 330px) {
+  .be::after {
+    content: "Hot";
+  }
+}
+@media screen and (max-width: 320px) {
+  .be::after {
+    content: "Big";
+  }
+}

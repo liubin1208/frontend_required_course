@@ -1,0 +1,15 @@
+.item {
+  font-size: 14px;
+}
+html[data-theme=light] .item {
+  color: #333;
+  background: #fff;
+}
+html[data-theme=dark] .item {
+  color: #fff;
+  background: #333;
+}
+html[data-theme=gray] .item {
+  color: #666;
+  background: #f5f5f5;
+}

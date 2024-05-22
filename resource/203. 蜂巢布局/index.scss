@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+$n: 9;
+$size: 100vw / $n;
+.line {
+  display: flex;
+  margin-top: -$size / 6;
+  &:nth-child(even) {
+    transform: translateX(-$size / 2);
+  }
+}
+.item {
+  flex-shrink: 0;
+  width: $size;
+  height: $size;
+  background: #000;
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+}
