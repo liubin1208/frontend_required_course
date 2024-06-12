@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #333844;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.card img {
+  border-radius: inherit;
+  width: 100%;
+}
+.card:hover {
+  box-shadow: -3px -3px 10px #54a29e, 3px 3px 10px #a79d66;
+}
+
+.card {
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.3s;
+  transform: perspective(500px) rotateX(var(--rx, 0deg))
+    rotateY(var(--ry, 0deg));
+}

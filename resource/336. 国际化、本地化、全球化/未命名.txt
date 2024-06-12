@@ -1,0 +1,31 @@
+
+
+i18n  internationalization 国际化
+内容
+配色
+布局
+交互方式
+
+地区脱钩
+	产品
+	UI
+	前端、后端、测试、运维
+	1. 收集用户地域信息
+		http accept-lang
+		navigator.language
+		localstorage
+	2. 界面与地域脱钩
+		文案脱钩	vuei18n
+		布局脱钩
+
+地区信息的整合
+
+l10n  localization 本地化
+	UI
+	市场
+	翻译
+	文化顾问
+	法律顾问
+	开发人员
+
+g11n  globalization 全球化

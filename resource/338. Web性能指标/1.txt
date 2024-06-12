@@ -1,0 +1,20 @@
+https://web.dev/explore/metrics?hl=zh-cn
+FCP
+LCP
+TBT
+CLS
+
+Web Performance Metrics
+
+用户体验
+
+RAIL
+
+Response
+Animation
+Idle
+Load
+
+
+实验室指标 分析工具 lighthourse
+用户指标 服务监控/数据埋点 Web Vital

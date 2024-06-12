@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #000;
+}
+
+.container {
+  display: grid;
+  width: 90%;
+  margin: 80px auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  display: block;
+}
+.container {
+  position: relative;
+}
+.pointer {
+  --l: 30px; /* 四角线框的长度 */
+  --t: 3px; /* 线框的粗细 */
+  --g: 15px; /* 线框与图片的间隙 */
+  --s: 240px; /* 图片的尺寸 */
+  --x: 0px; /* 图片左上角的横坐标 */
+  --y: 0px; /* 图片左上角的纵坐标 */
+  position: absolute;
+  width: calc(var(--s) + var(--g) * 2);
+  height: calc(var(--s) + var(--g) * 2);
+  border: var(--t) solid #fff;
+  left: calc(var(--x) - var(--g));
+  top: calc(var(--y) - var(--g));
+  transition: 0.2s;
+  mask: conic-gradient(
+    at var(--l) var(--l), 
+    transparent 75%, 
+    blue 75% 100%
+  ) 0 0 / calc(100% - var(--l)) calc(100% - var(--l)) repeat;
+}
